@@ -177,7 +177,7 @@ def main():
     print()
     
     # Initialize agent
-    agent = WikipediaQAAgent(model_name="deepset/roberta-base-squad2")
+    agent = WikipediaQAAgent(model_name="deepset/electra-base-squad2") # deepset/roberta-base-squad2 deepset/deberta-v3-large-squad2 deepset/electra-base-squad2
     
     # Run evaluation
     evaluator = QABenchmarkEvaluator(agent)
